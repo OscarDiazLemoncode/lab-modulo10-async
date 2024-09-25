@@ -11,7 +11,7 @@ export const crearElementoImg = (
   return img;
 };
 
-export const crearTitulo = (texto: string): HTMLParagraphElement => {
+export const crearTitulo = (texto: string): HTMLHeadingElement => {
   const titulo = document.createElement('h2');
   titulo.textContent = texto;
   return titulo;
